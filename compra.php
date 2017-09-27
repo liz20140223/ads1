@@ -15,11 +15,7 @@ $result=mysql_query($sql);
 echo "la base de datos fue modificada";
 mysql_close($c);
 }
-else{
-echo "El pedido supero el stock";
-echo "<br>";
-echo "Disponible:   ".$res1."      unidades";
-mysql_close($c);
+
 }
 
 ?>
