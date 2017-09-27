@@ -1,0 +1,41 @@
+﻿<html>
+<head>
+<title>venta de Productos</title>
+</head>
+<body bgcolor="orange">
+<center>
+<table border="0" width="400">
+
+<h1>Sistema de ventas con código de barras</h1>
+<form method="POST" action="registro.php"><tr>
+	<td>Código:</td>
+	<td><input type="text" name="codigo"size="6">
+</tr>
+<tr><br>
+	<td>Descripción:</td>
+	<td><input type="text" name="descripcion" size="40"><br>
+</tr>
+<tr><br>
+	<td>Precio:</td>
+	<td><input type="text" name="precio" size="6"><br>
+</tr>
+<tr><br>
+	<td>Stock:</td>
+	<td><input type="text" name="stock" size="6">
+	</tr>
+<tr><br>
+		<td>Area:</td>
+	<td>
+		<select name="area">
+		<option value="limpieza" >Limpieza</option>
+		<option value="embutidos">Embutidos</option>
+		<option value="aseo">Aseo Personal</option>
+		</td>
+</tr>
+<tr><br>
+	<td colspan="2" align="center"><input type="submit" name="enviar" size="6"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

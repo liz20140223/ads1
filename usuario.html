@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+<title>"SUPERMERCADO GARCIA"</title>
+<style type="text/css">
+div#message{text aling:center;
+margin-left:auto
+margin-right:auto;
+width:40% border:solid2px gren}
+</style>
+</head>
+<body background="garcia.jpg">
+<center>
+<h1><font color="yellow">"SUPERMERCADO GARCIA"</font></h1>
+
+<script>
+function usrpas(){
+if (document.form1.txt.value=="admin1" && document.form1.num.value=="1234"){window.location="home.html";return}
+if (document.form1.txt.value=="admin2" && document.form1.num.value=="4321"){window.location="registrar.html";return}
+ 
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+<form name="form1">
+<input type="text" name="txt"> Usuario (admin1 - admin2 )<br>
+<input type="text" name="num"> Contraseña (1234 - 4321 )<br>
+<input type="button" value="ir a" onclick="usrpas()">
+</form>
+
+
+
+</form>
+</body>
+</html>
